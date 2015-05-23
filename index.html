@@ -1,81 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>NodeJS How-to-guide</title>
-	<link rel="stylesheet" href="css/bootstrap.css">
-</head>
-<body>
-	<h4>What is Node.JS?</h4>
-		<p>Once upon a time, in the far far away land of world wide web, JavaScript handles all of the front-end processes on the client-side. All of the heavy processing is handled in the back-end by PHP. Live is good. One day, JavaScript discovered Node.JS, a master in server-side processing. Together with Node.JS, JavaScript has slowly but surely overtaken PHP as the dominance force to rule the world wide web world on both client and server sides.</p>
-	<h4>Why Node.JS? </h4>
-		<p>Okay, great, so Node.JS can run JavaScript on the server side but why should I care?</p>
-
-		<p>Like PHP, Node.JS is also an open source initive. It is using the latest Google's JavaScript engine <a href="https://developers.google.com/v8/">V8</a>. This makes Node.JS super fast.</p> 
-
-		<p>In addition,as JavaScript becomes one of the most popular languages on the web, there are large communities supporting and developing new functionalities for Node.JS framework.</p>
-
-		<p>Still not convince? Node.JS has built-in libraries that handle HTTP, SSL, filesystem, compression, JSON, etc. Those advantages make it a great tool to create APIs, running real-time applications, etc.</p>
-
-	<h4>Where is Node.JS used?</h4>
-		Alright, so, Node.JS sounds great but where is it used?</b>
-		Node.JS is one of the most popular and fastest growing JavaScript framework in the world. It is being used by a lot of small as well as large Fortunes 500 companies including:</b>
-        <div class="row">
-      		<div class="col-sm-4">
-            	<a href="#"><img src="img/microsoft_logo.png" class="img-responsive" alt="" ></a>
-        	</div>
-        	<div class="col-sm-4">
-          		<a href="#"><img src="img/yahoo_logo.png" class="img-responsive" alt=""></a>
-        	</div>
-        	<div class="col-sm-4">
-          		<a href="#"><img src="img/dow_logo.png" class="img-responsive" alt=""></a>
-        	</div>
-      	</div>
-        <div class="row">
-      		<div class="col-sm-4">
-        	    <a href="#"><img src="img/ebay_logo.png" class="img-responsive" alt=""></a>
-        	</div>
-      		<div class="col-sm-4">
-            	<a href="#"><img src="img/nyt_logo.png" class="img-responsive" alt=""></a>
-        	</div>
-        	<div class="col-sm-4">
-          		<a href="#"><img src="img/linkedin_logo.png" class="img-responsive" alt=""></a>
-        	</div>
-      	</div>
-
-	<h4>When shouldn't you use it?</h4>
-		Since Node.JS is single thread, it is not ideal for long running operation such as complex calculation. In addition, while Node.JS excels in handling JSON, the defacto for NoSQL databases, PHP is still a better tool to handle relational databases such as MySQL. Therefore, depends on situation and requirements, Node.JS may or may not be the best solution for everything.</br>
-
-	<h4>How to use Node.JS?</h4>
-		Well, that sounds terrific. Now, how do I start? Glad you asked; here are the steps:
-
-		<ol>
-			<li>Go to <a href="https://nodejs.org/download/">Node.JS</a> and select the appropriate version for your operating system.</li>	
-			<li>Follow the instructions to install Node.JS</li>
-		</ol>
-		<p>Well, great! I think I have Node.JS installed but how do I know for sure?</p>
-		Writing your favorite program, "Hello World", of course.</br>
-		
-		In your favorite editor, type the following code:</br>
-			<img src="img/hw1.png" class="image-responsive" alt=""> </br>
-
-		Now, on the command line, type:</br>
-			<img src="img/hw2.png" class="image-responsive" alt=""> </br>
-
-		Voila!! You have successfully installed and written your first Node.JS program!</br>
-		</p>
-	<h4>Running a server</h4>
-
-Using Node.js to run a server </br>
-
-
-	<h4>Express</h4>
-
-
-	<h4>Different library</h4>
-
-
-	<h4>JSON</h4>
-
-	<h4>More information</h4>
-</body>
+	<head>
+		<title>NodeJS How-to-guide</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+	</head>
+	<body>
+		<div class = "container">
+			<div class="page-header">
+				<h1>
+					Node.JS
+				</h1>
+			</div>
+		</div>
+		<div class="container">
+			<h4>What is Node.JS?</h4>
+			<p>Once upon a time, in the far far away land of world wide web, JavaScript handles all of the front-end processes on the client-side. All of the heavy processing is handled in the back-end by PHP. Live is good. One day, JavaScript discovered Node.JS, a master in server-side processing. Together with Node.JS, JavaScript has slowly but surely overtaken PHP as the dominance force to rule the world wide web world on both client and server sides.</p>
+		</div>
+		<div class="container">
+			<h4>Why Node.JS? </h4>
+			<p>Okay, great, so Node.JS can run JavaScript on the server side but why should I care?</p>
+			<p>Like PHP, Node.JS is also an open source initive. It is using the latest Google's JavaScript engine <a href="https://developers.google.com/v8/">V8</a>. This makes Node.JS super fast.</p>
+			<p>In addition,as JavaScript becomes one of the most popular languages on the web, there are large communities supporting and developing new functionalities for Node.JS framework.</p>
+			<p>Still not convince? Node.JS has built-in libraries that handle HTTP, SSL, filesystem, compression, JSON, etc. Those advantages make it a great tool to create APIs, running real-time applications, etc.</p>
+		</div>
+		<div class="container">
+			<h4>Where is Node.JS used?</h4>
+			Alright, so, Node.JS sounds great but where is it used?</b>
+			Node.JS is one of the most popular and fastest growing JavaScript framework in the world. It is being used by a lot of small as well as large Fortunes 500 companies including:</b>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<a href="http://microsoft.com"><img src="img/microsoft_logo.png" class="img-responsive" alt="" ></a>
+				</div>
+				<div class="col-sm-4">
+					<a href="http://yahoo.com"><img src="img/yahoo_logo.png" class="img-responsive" alt=""></a>
+				</div>
+				<div class="col-sm-4">
+					<a href="http://new.dowjones.com"><img src="img/dow_logo.png" class="img-responsive" alt=""></a>
+				</div>
+			</div>
+		</div>		
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<a href="http://ebay.com"><img src="img/ebay_logo.png" class="img-responsive" alt=""></a>
+				</div>
+				<div class="col-sm-4">
+					<a href="http://nyt.com"><img src="img/nyt_logo.png" class="img-responsive" alt=""></a>
+				</div>
+				<div class="col-sm-4">
+					<a href="http://linkedin.com"><img src="img/linkedin_logo.png" class="img-responsive" alt=""></a>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<h4>When shouldn't you use it?</h4>
+			<p>Since Node.JS is single thread, it is not ideal for long running operation such as complex calculation. In addition, while Node.JS excels in handling JSON, the defacto for NoSQL databases, PHP is still a better tool to handle relational databases such as MySQL. Therefore, depends on situation and requirements, Node.JS may or may not be the best solution for everything.</p>
+		</div>
+		<div class="container">
+			<h4>How to use Node.JS?</h4>
+			<p>Well, that sounds terrific. Now, how do I start? Glad you asked; here are the steps:</p>
+			<ol>
+				<li>Go to <a href="https://nodejs.org/download/">Node.JS</a> and select the appropriate version for your operating system.</li>
+				<li>Follow the instructions to install Node.JS</li>
+			</ol>
+			<p>Well, great! I think I have Node.JS installed but how do I know for sure?</p>
+			Writing your favorite program, "Hello World", of course.</br>
+			In your favorite editor, type the following code:</br>
+				<img src="img/hw1.png" class="image-responsive" alt=""> </br>
+			Now, on the command line, type:</br>
+				<img src="img/hw2.png" class="image-responsive" alt=""> </br>
+			Voila!! You have successfully installed and written your first Node.JS program!</br>
+			</p>
+		</div>
+		<div class="container">
+			<h4>Running a server</h4>
+			<p>Writing "Hello World" is cool and all but what about running Node.JS on the server?</p>
+			<p>Aha! Using Node.JS as your back-end server is extremly simple. Unlike PHP, you don't need to have Apache installed in order to set up your server. Here is a simple example of setting up a server using Node.JS:</p>
+			In your favorite editor, type the following code:</br>
+				<img src="img/server1.png" class="image-responsive" alt=""> </br>
+			Run the new script using Node.JS:</br>
+				<img src="img/server2.png" class="image-responsive" alt=""> </br>
+			Now, in your web browser, make a request to localhost at port 8000:</br>						
+				<img src="img/server3.png" class="image-responsive" alt=""> </br>
+			Check back on the running script:</br>
+				<img src="img/server4.png" class="image-responsive" alt=""> </br>
+			With a just a few lines of code, Node.JS is able to act as a server to get request and send back response to the user. This demonstrates the power as well as simplicity of Node.JS.<br/>
+		</div>
+		<div class="container">
+			<h4>Express</h4>
+		</div>
+		<div class="container">
+			<h4>Different libraries</h4>
+		</div>
+		<div class="container">
+			<h4>JSON</h4>
+		</div>
+		<div class="container">
+			<h4>More information</h4>
+		</div>
+	</body>
 </html>
